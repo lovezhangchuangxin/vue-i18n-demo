@@ -10,4 +10,6 @@ why？
 
 ## 实现原理
 
+核心代码：[src/i18n/i18n.ts](src/i18n/i18n.ts)
+
 当前的地区 `locale` 是一个 `ref` 变量（为了响应式）。而该语言的配置 `messages` 通过 `computed` 计算获取，这样当用户修改 `locale` 时，`messages` 会自动修改为新地区语言的版本。
