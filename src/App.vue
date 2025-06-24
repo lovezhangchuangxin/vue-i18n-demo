@@ -8,7 +8,7 @@
         class="mt-8 px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-medium rounded-lg shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-50 dark:bg-indigo-700 dark:hover:bg-indigo-800"
         @click="toggleLocale"
       >
-        切换语言
+        {{ i18n.switch }}
       </button>
     </div>
   </div>
